@@ -1,0 +1,68 @@
+{
+  "$schema": "https://raw.githubusercontent.com/pewplay/pewplay/main/schema/game.schema.json",
+  "title": "Four in a Row",
+  "description": "Drop red and yellow discs and line up four in a row against a smart computer or a friend. Free classic board game to play in your browser.",
+  "about": "Four in a Row is the classic vertical strategy game for two. Players take turns dropping a disc into one of the seven columns, and the disc falls to the lowest free space. The first to line up four discs of their color horizontally, vertically or diagonally wins.\n\nPlay against the computer at three difficulty levels: Easy makes the occasional mistake, Medium thinks a few moves ahead and Hard plans deep and punishes every slip. You can also pass the device back and forth and play against a friend. Your wins, losses and draws against the computer are tracked for each difficulty, and the first move alternates between games.\n\nThe rules take seconds to learn, but setting up a double threat that your opponent cannot block takes real planning.",
+  "howToPlay": "Choose a column to drop your disc; it falls to the lowest empty space. Take turns with your opponent and try to make a line of four of your discs in any direction while blocking theirs. If the board fills up with no line of four, the game is a draw.",
+  "controls": [
+    {
+      "input": "Click / Tap",
+      "action": "Drop a disc in that column"
+    },
+    {
+      "input": "← → / A D",
+      "action": "Choose a column"
+    },
+    {
+      "input": "Space / Enter / ↓",
+      "action": "Drop the disc"
+    },
+    {
+      "input": "1 – 7",
+      "action": "Drop in a column directly"
+    },
+    {
+      "input": "Esc / P",
+      "action": "Pause"
+    }
+  ],
+  "tips": [
+    "Control the middle column: it is part of more possible lines than any other.",
+    "Look for spaces where you would win, then avoid filling the space right below them.",
+    "Build two threats at once so your opponent can only block one of them.",
+    "Before every move, check whether your opponent already has three in a row."
+  ],
+  "faq": [
+    {
+      "question": "Is Four in a Row free to play?",
+      "answer": "Yes. It is free and runs in your browser, with no download or sign-up."
+    },
+    {
+      "question": "Can I play on a phone or tablet?",
+      "answer": "Yes. Tap a column to drop your disc. The board scales to fit the screen in portrait or landscape."
+    },
+    {
+      "question": "Can two people play on the same device?",
+      "answer": "Yes. Choose 2 Players in the menu and take turns tapping the columns on the same screen."
+    }
+  ],
+  "category": "Board",
+  "tags": [
+    "four in a row",
+    "board game",
+    "strategy",
+    "two player",
+    "classic"
+  ],
+  "author": "PewPlay",
+  "playMode": "Both",
+  "orientation": "any",
+  "cover": "cover.png",
+  "screenshots": [
+    "screenshots/1.png",
+    "screenshots/2.png",
+    "screenshots/3.png"
+  ],
+  "added": "2026-11-26",
+  "draft": false
+}
